@@ -10,7 +10,9 @@ document
     [prov:type = 'prov:Bundle',
     prov:label = "SPM Results",
     nidm:objectModel = 'nidm:SpmFmriResults',
-    nidm:version = "0.1.0"])
+    nidm:version = "0.1.0", 
+    spm:dummyAttribute = "",
+    crypto:dummyAttribute = ""])
   wasGeneratedBy(niiri:spm_results_id, -, 2014-05-19T10:30:00)
 
   bundle niiri:spm_results_id
