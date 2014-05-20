@@ -12,7 +12,14 @@ document
     nidm:objectModel = 'nidm:SpmFmriResults',
     nidm:version = "0.1.0"])
   wasGeneratedBy(niiri:spm_results_id, -, 2014-05-19T10:30:00)
+
   bundle niiri:spm_results_id
+    prefix neurolex <http://neurolex.org/wiki/>
+    prefix spm <http://www.incf.org/ns/nidash/spm#>
+    prefix nidm <http://www.incf.org/ns/nidash/nidm#>
+    prefix niiri <http://iri.nidash.org/>
+    prefix crypto <http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions#>
+
     entity(niiri:coordinate_space_id_1,
       [prov:type = 'nidm:CoordinateSpace',
       prov:label = "Coordinate space 1" %% xsd:string,
