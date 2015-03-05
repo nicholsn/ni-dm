@@ -395,12 +395,12 @@
                             </tr>
                 
                         <tr>
-                            <td><a title="nidm:DataCollection">nidm:DataCollection</a>
+                            <td><a title="nidm:SessionCollection">nidm:SessionCollection</a>
                             </td>
                     
                                 <td rowspan="1" style="text-align: center;">NIDM-Experiment Types<br/>                                 (PROV Entity)</td>
                         
-                                <td><a>nidm:DataCollection</a></td>
+                                <td><a>nidm:SessionCollection</a></td>
                             </tr>
                 
                 </tbody>
@@ -418,16 +418,16 @@
                     <li><span class="attribute" id="nidm:SessionAcquisition.label">rdfs:label</span>: an                     <em class="rfc2119" title="OPTIONAL">OPTIONAL</em> human readable description                     of the nidm:SessionAcquisition.</li>
                       
             </section>
-            <!-- nidm:DataCollection -->
-            <section id="section-nidm:DataCollection"> 
-                <h1 label="nidm:DataCollection">nidm:DataCollection</h1>
+            <!-- nidm:SessionCollection -->
+            <section id="section-nidm:SessionCollection"> 
+                <h1 label="nidm:SessionCollection">nidm:SessionCollection</h1>
                 <div class="glossary-ref">
-                    A <dfn>nidm:DataCollection</dfn>                    <sup><a title="nidm:DataCollection">                    <span class="diamond">&#9826;</span></a></sup> is . <a>nidm:DataCollection</a> is a prov:Entity. 
+                    A <dfn>nidm:SessionCollection</dfn>                    <sup><a title="nidm:SessionCollection">                    <span class="diamond">&#9826;</span></a></sup> is . <a>nidm:SessionCollection</a> is a prov:Entity. 
                 </div>
                 <p></p>
-                <div class="attributes" id="attributes-nidm:DataCollection"> A <a>nidm:DataCollection</a> has attributes:
+                <div class="attributes" id="attributes-nidm:SessionCollection"> A <a>nidm:SessionCollection</a> has attributes:
                 <ul>
-                    <li><span class="attribute" id="nidm:DataCollection.label">rdfs:label</span>: an                     <em class="rfc2119" title="OPTIONAL">OPTIONAL</em> human readable description                     of the nidm:DataCollection.</li>
+                    <li><span class="attribute" id="nidm:SessionCollection.label">rdfs:label</span>: an                     <em class="rfc2119" title="OPTIONAL">OPTIONAL</em> human readable description                     of the nidm:SessionCollection.</li>
                       
             </section>
             </section>
@@ -464,9 +464,16 @@
                             <td><a title="nidm:AnatomyImagingAcquisition">nidm:AnatomyImagingAcquisition</a>
                             </td>
                     
-                                <td rowspan="1" style="text-align: center;">NIDM-Experiment Types<br/>                                 (PROV Activity)</td>
+                                <td rowspan="2" style="text-align: center;">NIDM-Experiment Types<br/>                                 (PROV Activity)</td>
                         
                                 <td><a>nidm:AnatomyImagingAcquisition</a></td>
+                            </tr>
+                
+                        <tr>
+                            <td><a title="nidm:TaskBasedImagingAcquisition">nidm:TaskBasedImagingAcquisition</a>
+                            </td>
+                    
+                                <td><a>nidm:TaskBasedImagingAcquisition</a></td>
                             </tr>
                 
                         <tr>
@@ -479,17 +486,17 @@
                             </tr>
                 
                         <tr>
-                            <td><a title="nidm:BehaviorAndConsitionOnsets">nidm:BehaviorAndConsitionOnsets</a>
+                            <td><a title="nidm:FunctionalSeries">nidm:FunctionalSeries</a>
                             </td>
                     
-                                <td><a>nidm:BehaviorAndConsitionOnsets</a></td>
+                                <td><a>nidm:FunctionalSeries</a></td>
                             </tr>
                 
                         <tr>
-                            <td><a title="nidm:FunctionalScan">nidm:FunctionalScan</a>
+                            <td><a title="nidm:TaskEvents">nidm:TaskEvents</a>
                             </td>
                     
-                                <td><a>nidm:FunctionalScan</a></td>
+                                <td><a>nidm:TaskEvents</a></td>
                             </tr>
                 
                 </tbody>
@@ -531,6 +538,18 @@
                     <li><span class="attribute" id="nidm:AnatomyImagingAcquisition.label">rdfs:label</span>: an                     <em class="rfc2119" title="OPTIONAL">OPTIONAL</em> human readable description                     of the nidm:AnatomyImagingAcquisition.</li>
                       
             </section>
+            <!-- nidm:TaskBasedImagingAcquisition -->
+            <section id="section-nidm:TaskBasedImagingAcquisition"> 
+                <h1 label="nidm:TaskBasedImagingAcquisition">nidm:TaskBasedImagingAcquisition</h1>
+                <div class="glossary-ref">
+                    A <dfn>nidm:TaskBasedImagingAcquisition</dfn>                    <sup><a title="nidm:TaskBasedImagingAcquisition">                    <span class="diamond">&#9826;</span></a></sup> is . <a>nidm:TaskBasedImagingAcquisition</a> is a prov:Activity. 
+                </div>
+                <p></p>
+                <div class="attributes" id="attributes-nidm:TaskBasedImagingAcquisition"> A <a>nidm:TaskBasedImagingAcquisition</a> has attributes:
+                <ul>
+                    <li><span class="attribute" id="nidm:TaskBasedImagingAcquisition.label">rdfs:label</span>: an                     <em class="rfc2119" title="OPTIONAL">OPTIONAL</em> human readable description                     of the nidm:TaskBasedImagingAcquisition.</li>
+                      
+            </section>
             <!-- nidm:AnatomicalScan -->
             <section id="section-nidm:AnatomicalScan"> 
                 <h1 label="nidm:AnatomicalScan">nidm:AnatomicalScan</h1>
@@ -543,40 +562,28 @@
                     <li><span class="attribute" id="nidm:AnatomicalScan.label">rdfs:label</span>: an                     <em class="rfc2119" title="OPTIONAL">OPTIONAL</em> human readable description                     of the nidm:AnatomicalScan.</li>
                       
             </section>
-            <!-- nidm:BehaviorAndConsitionOnsets -->
-            <section id="section-nidm:BehaviorAndConsitionOnsets"> 
-                <h1 label="nidm:BehaviorAndConsitionOnsets">nidm:BehaviorAndConsitionOnsets</h1>
+            <!-- nidm:FunctionalSeries -->
+            <section id="section-nidm:FunctionalSeries"> 
+                <h1 label="nidm:FunctionalSeries">nidm:FunctionalSeries</h1>
                 <div class="glossary-ref">
-                    A <dfn>nidm:BehaviorAndConsitionOnsets</dfn>                    <sup><a title="nidm:BehaviorAndConsitionOnsets">                    <span class="diamond">&#9826;</span></a></sup> is . <a>nidm:BehaviorAndConsitionOnsets</a> is a prov:Entity. 
+                    A <dfn>nidm:FunctionalSeries</dfn>                    <sup><a title="nidm:FunctionalSeries">                    <span class="diamond">&#9826;</span></a></sup> is . <a>nidm:FunctionalSeries</a> is a prov:Entity. 
                 </div>
                 <p></p>
-                <div class="attributes" id="attributes-nidm:BehaviorAndConsitionOnsets"> A <a>nidm:BehaviorAndConsitionOnsets</a> has attributes:
+                <div class="attributes" id="attributes-nidm:FunctionalSeries"> A <a>nidm:FunctionalSeries</a> has attributes:
                 <ul>
-                    <li><span class="attribute" id="nidm:BehaviorAndConsitionOnsets.label">rdfs:label</span>: an                     <em class="rfc2119" title="OPTIONAL">OPTIONAL</em> human readable description                     of the nidm:BehaviorAndConsitionOnsets.</li>
+                    <li><span class="attribute" id="nidm:FunctionalSeries.label">rdfs:label</span>: an                     <em class="rfc2119" title="OPTIONAL">OPTIONAL</em> human readable description                     of the nidm:FunctionalSeries.</li>
                       
             </section>
-            <!-- nidm:FunctionalScan -->
-            <section id="section-nidm:FunctionalScan"> 
-                <h1 label="nidm:FunctionalScan">nidm:FunctionalScan</h1>
+            <!-- nidm:TaskEvents -->
+            <section id="section-nidm:TaskEvents"> 
+                <h1 label="nidm:TaskEvents">nidm:TaskEvents</h1>
                 <div class="glossary-ref">
-                    A <dfn>nidm:FunctionalScan</dfn>                    <sup><a title="nidm:FunctionalScan">                    <span class="diamond">&#9826;</span></a></sup> is . <a>nidm:FunctionalScan</a> is a prov:Entity. 
+                    A <dfn>nidm:TaskEvents</dfn>                    <sup><a title="nidm:TaskEvents">                    <span class="diamond">&#9826;</span></a></sup> is . <a>nidm:TaskEvents</a> is a prov:Entity. 
                 </div>
                 <p></p>
-                <div class="attributes" id="attributes-nidm:FunctionalScan"> A <a>nidm:FunctionalScan</a> has attributes:
+                <div class="attributes" id="attributes-nidm:TaskEvents"> A <a>nidm:TaskEvents</a> has attributes:
                 <ul>
-                    <li><span class="attribute" id="nidm:FunctionalScan.label">rdfs:label</span>: an                     <em class="rfc2119" title="OPTIONAL">OPTIONAL</em> human readable description                     of the nidm:FunctionalScan.</li>
-                      
-            </section>
-            <!-- nidm:TaskBasedImagingAcquisition -->
-            <section id="section-nidm:TaskBasedImagingAcquisition"> 
-                <h1 label="nidm:TaskBasedImagingAcquisition">nidm:TaskBasedImagingAcquisition</h1>
-                <div class="glossary-ref">
-                    A <dfn>nidm:TaskBasedImagingAcquisition</dfn>                    <sup><a title="nidm:TaskBasedImagingAcquisition">                    <span class="diamond">&#9826;</span></a></sup> is . <a>nidm:TaskBasedImagingAcquisition</a> is. 
-                </div>
-                <p></p>
-                <div class="attributes" id="attributes-nidm:TaskBasedImagingAcquisition"> A <a>nidm:TaskBasedImagingAcquisition</a> has attributes:
-                <ul>
-                    <li><span class="attribute" id="nidm:TaskBasedImagingAcquisition.label">rdfs:label</span>: an                     <em class="rfc2119" title="OPTIONAL">OPTIONAL</em> human readable description                     of the nidm:TaskBasedImagingAcquisition.</li>
+                    <li><span class="attribute" id="nidm:TaskEvents.label">rdfs:label</span>: an                     <em class="rfc2119" title="OPTIONAL">OPTIONAL</em> human readable description                     of the nidm:TaskEvents.</li>
                       
             </section>
             </section>
